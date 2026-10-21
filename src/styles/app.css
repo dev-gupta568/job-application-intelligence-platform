@@ -1,0 +1,288 @@
+.setup-page {
+  width: min(100% - 64px, 1120px);
+  margin: 0 auto;
+}
+
+.topbar {
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1px solid #e6e9e3;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  color: #202a2a;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  text-decoration: none;
+}
+
+.brand-mark {
+  width: 31px;
+  height: 31px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  color: #fff;
+  background: #26796d;
+  font-family: Georgia, serif;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.phase-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 1px solid #e2e8e2;
+  border-radius: 999px;
+  color: #586663;
+  background: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.phase-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #d5a64b;
+}
+
+.home-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: auto;
+}
+
+.home-login,
+.home-register {
+  font-size: 12px;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.home-login {
+  color: #53615d;
+}
+
+.home-register {
+  padding: 10px 13px;
+  border-radius: 8px;
+  color: #fff;
+  background: #26796d;
+}
+
+.hero {
+  max-width: 720px;
+  padding: 91px 0 78px;
+}
+
+.eyebrow {
+  margin: 0;
+  color: #26796d;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  margin: 20px 0 22px;
+  color: #202a2a;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(48px, 7vw, 76px);
+  font-weight: 400;
+  letter-spacing: -3.6px;
+  line-height: 1.04;
+}
+
+.hero h1 span {
+  color: #26796d;
+  font-style: italic;
+}
+
+.hero-copy {
+  max-width: 520px;
+  margin: 0;
+  color: #64716e;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.setup-note {
+  max-width: 580px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 31px;
+  padding: 16px 18px;
+  border: 1px solid #e1e9e2;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.note-icon {
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: #26796d;
+  background: #e8f2ed;
+  font-family: Georgia, serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.setup-note p {
+  margin: 0;
+  color: #53615d;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.roadmap {
+  padding: 32px 0 53px;
+  border-top: 1px solid #e6e9e3;
+}
+
+.section-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.section-heading h2 {
+  margin: 8px 0 0;
+  color: #202a2a;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: -0.8px;
+}
+
+.roadmap-count {
+  padding-bottom: 4px;
+  color: #83908c;
+  font-size: 12px;
+}
+
+.roadmap-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.roadmap-card {
+  position: relative;
+  min-height: 165px;
+  padding: 21px 22px;
+  border: 1px solid #e6e9e3;
+  border-radius: 13px;
+  background: #fff;
+}
+
+.card-number {
+  color: #a1aaa5;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.roadmap-card h3 {
+  margin: 21px 0 7px;
+  color: #25312e;
+  font-size: 16px;
+  font-weight: 650;
+  letter-spacing: -0.2px;
+}
+
+.roadmap-card p {
+  max-width: 250px;
+  margin: 0;
+  color: #71807a;
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.card-arrow {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #9aaba4;
+  font-size: 16px;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px 0 28px;
+  border-top: 1px solid #e6e9e3;
+  color: #87928e;
+  font-size: 11px;
+}
+
+@media (max-width: 640px) {
+  .setup-page {
+    width: min(100% - 36px, 1120px);
+  }
+
+  .topbar {
+    height: 70px;
+    gap: 12px;
+  }
+
+  .topbar > .phase-label {
+    display: none;
+  }
+
+  .home-actions {
+    gap: 12px;
+  }
+
+  .hero {
+    padding: 68px 0 59px;
+  }
+
+  .hero h1 {
+    letter-spacing: -2.5px;
+  }
+
+  .section-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .section-heading h2 {
+    font-size: 27px;
+  }
+
+  .roadmap-grid {
+    grid-template-columns: 1fr;
+    gap: 11px;
+  }
+
+  .roadmap-card {
+    min-height: 145px;
+  }
+
+  .page-footer {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
